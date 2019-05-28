@@ -1,0 +1,22 @@
+{
+  "name": "jquery.pagination",
+  "version": "1.0.0",
+  "description": "A nice pagination based with jQuery1.12",
+  "main": "dist/pagination.min",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "jQuery1.12",
+    "pagination"
+  ],
+  "author": "xinlei_ye",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
+}

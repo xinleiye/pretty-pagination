@@ -1,0 +1,292 @@
+/*! used for jquery.pagination.js version: 1.0.0 2019-05-28 */
+.border {
+  border: 1px solid #dcdfe6;
+  border-radius: 3px;
+}
+.font {
+  color: #606266;
+  font-size: 14px;
+}
+.pager-item-base {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 3px;
+  white-space: nowrap;
+  transition: all 0.28s ease;
+  border-radius: 3px;
+  color: #606266;
+  font-size: 14px;
+}
+.pagination-wrap {
+  width: 100%;
+  font-size: 0;
+}
+.pagination-wrap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+}
+.pagination-wrap ul li {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  text-align: center;
+}
+.pagination-wrap button {
+  outline: none;
+  border: 1px solid #dcdfe6;
+  border-radius: 3px;
+}
+.pagination-wrap .pager-list {
+  display: inline-block;
+  vertical-align: top;
+  height: 32px;
+  line-height: 32px;
+}
+.pagination-wrap .pager-item-normal {
+  color: #303133;
+  border: 1px solid #dcdfe6;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 3px;
+  white-space: nowrap;
+  transition: all 0.28s ease;
+  border-radius: 3px;
+  color: #606266;
+  font-size: 14px;
+}
+.pagination-wrap .pager-item-normal:hover {
+  border: 1px solid #409EFF;
+  background-color: #409EFF;
+  color: #fff;
+  transition: all 0.28s ease;
+  cursor: pointer;
+}
+.pagination-wrap .pager-item-active {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 3px;
+  white-space: nowrap;
+  transition: all 0.28s ease;
+  border-radius: 3px;
+  color: #606266;
+  font-size: 14px;
+  border: 1px solid #409EFF;
+  background-color: #409EFF;
+  color: #fff;
+}
+.pagination-wrap .pager-item-ellipsis {
+  color: #303133;
+  cursor: not-allowed;
+  border: 1px solid #dcdfe6;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 3px;
+  white-space: nowrap;
+  transition: all 0.28s ease;
+  border-radius: 3px;
+  color: #606266;
+  font-size: 14px;
+}
+.pagination-wrap .left {
+  text-align: left;
+}
+.pagination-wrap.center {
+  text-align: center;
+}
+.pagination-wrap .right {
+  text-align: right;
+}
+.pagination-wrap .pager-item:hover {
+  border: 1px solid #409EFF;
+  background-color: #409EFF;
+  color: #fff;
+  transition: all 0.28s ease;
+  cursor: pointer;
+}
+.pagination-wrap .pager-first,
+.pagination-wrap .pager-prev,
+.pagination-wrap .pager-next,
+.pagination-wrap .pager-last {
+  width: 80px;
+  height: 32px;
+  background-color: #fff;
+  margin: 0 4px;
+  color: #606266;
+  font-size: 14px;
+}
+.pagination-wrap .pager-first:hover,
+.pagination-wrap .pager-prev:hover,
+.pagination-wrap .pager-next:hover,
+.pagination-wrap .pager-last:hover {
+  border: 1px solid #409EFF;
+  background-color: #409EFF;
+  color: #fff;
+  transition: all 0.28s ease;
+  cursor: pointer;
+}
+.pagination-wrap .pager-first:disabled,
+.pagination-wrap .pager-prev:disabled,
+.pagination-wrap .pager-next:disabled,
+.pagination-wrap .pager-last:disabled {
+  cursor: not-allowed;
+  background-color: #fff;
+  color: #dcdfe6;
+  border: 1px solid #dcdfe6;
+  border-radius: 3px;
+}
+.pagination-wrap .pager-sizes {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+  height: 32px;
+  color: #606266;
+  font-size: 14px;
+}
+.pagination-wrap .pager-sizes span {
+  line-height: 32px;
+}
+.pagination-wrap .pager-sizes .sizes-select {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 70px;
+  height: 32px;
+}
+.pagination-wrap .pager-sizes .sizes-select:hover {
+  cursor: pointer;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-input {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0 23px 0 3px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border: 1px solid #dcdfe6;
+  border-radius: 3px;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-input:hover {
+  border-color: #c0c4cc;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-input:focus {
+  border-color: #409eff;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-icon {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  right: 5px;
+  color: #c0c4cc;
+  transition: transform 0.3s;
+  transform: rotate(0deg);
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-icon-reverse {
+  transform: rotate(180deg);
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-dropdown {
+  position: absolute;
+  margin: 12px 0;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-dropdown .sizes-list {
+  padding: 3px 0;
+  border: 1px solid #dcdfe6;
+  border-radius: 3px;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-dropdown .arrow {
+  position: absolute;
+  left: 25px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-dropdown .arrow.down {
+  border-width: 6px 6px 0 6px;
+  border-top-color: #dcdfe6;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-dropdown .arrow.down:after {
+  position: absolute;
+  bottom: 1px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 6px 0 6px;
+  margin-left: -6px;
+  border-color: transparent;
+  border-top-color: #fff;
+  content: " ";
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-dropdown .arrow.up {
+  border-width: 0px 6px 6px 6px;
+  border-bottom-color: #dcdfe6;
+  top: -6px;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-dropdown .arrow.up:after {
+  position: absolute;
+  bottom: -8px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 6px 6px 6px;
+  margin-left: -6px;
+  border-color: transparent;
+  border-bottom-color: #fff;
+  content: " ";
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-select-item {
+  text-align: left;
+  line-height: 32px;
+  width: 100%;
+  padding: 0 0 0 20px;
+  background-color: #fff;
+  transition: all 0.28s ease;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-select-item:hover {
+  background-color: #f5f7fa;
+  transition: all 0.28s ease;
+}
+.pagination-wrap .pager-sizes .sizes-select .sizes-select-item.selected {
+  color: #409eff;
+  font-weight: 700;
+}
+.pagination-wrap .pager-jump {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+  height: 32px;
+  color: #606266;
+  font-size: 14px;
+}
+.pagination-wrap .pager-jump .jump-input {
+  width: 40px;
+  height: 32px;
+  box-sizing: border-box;
+  text-align: center;
+  outline: none;
+  border: 1px solid #dcdfe6;
+  border-radius: 3px;
+}
+.pagination-wrap .pager-jump .jump-input:hover {
+  border-color: #c0c4cc;
+}
+.pagination-wrap .pager-jump .jump-input:focus {
+  border-color: #409eff;
+}
+.pagination-wrap .pager-total {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+  height: 32px;
+  line-height: 32px;
+  color: #606266;
+  font-size: 14px;
+}

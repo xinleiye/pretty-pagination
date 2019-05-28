@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="styleSheet" href="./dist/jquery-pagination.css" />
+        <script src="./lib/jquery-1.12.4.min.js"></script>
+        <!-- <script src="jquery.pagination.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#pagination").pagination();
+            });
+        </script> -->
+        <style>
+            .wrap {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="pagination" class="wrap">
+            <div class="pagination-wrap center">
+                <button class="pager-first" disabled="disabled">« 首页</button>
+                <button class="pager-prev">‹ 前一页</button>
+                <ul class="pager-list">
+                    <li class="pager-item-normal">1</li>
+                    <li class="pager-item-normal">2</li>
+                    <li class="pager-item-normal">3</li>
+                    <li class="pager-item-normal">4</li>
+                    <li class="pager-item-active">5</li>
+                    <li class="pager-item-ellipsis">...</li>
+                    <li class="pager-item-normal">10</li>
+                </ul>
+                <button class="pager-next">后一页 ›</button>
+                <button class="pager-last">尾页 »</button>
+                <div class="pager-sizes">
+                    <span>每页</span>
+                    <div class="sizes-select">
+                        <input type="text" readonly="readonly" value="5" class="sizes-input">
+                        <span class="sizes-icon">▼</span>
+                        <div class="sizes-dropdown">
+                            <div class="sizes-list">
+                                <ul>
+                                    <li class="sizes-select-item selected">5</li>
+                                    <li class="sizes-select-item">10</li>
+                                    <li class="sizes-select-item">50</li>
+                                    <li class="sizes-select-item">100</li>
+                                </ul>
+                            </div>
+                            <div class="arrow up"></div>
+                        </div>
+                    </div>
+                    <span>条</span>
+                </div>
+                <div class="pager-jump">
+                    <span>前往</span>
+                    <input type="text" maxlength="3" class="jump-input" value="1">
+                    <span>页</span>
+                </div>
+                <div class="pager-total">
+                    <span>共 30 条</span>
+                </div>
+            </div>
+            <!-- <div id="pagination"></div> -->
+        </div>
+    </body>
+</html>
